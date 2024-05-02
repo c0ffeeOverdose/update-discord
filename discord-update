@@ -1,0 +1,4 @@
+#! /bin/bash
+wget 'https://discord.com/api/download?platform=linux&format=deb' -O 'discord_temp.deb'
+sudo apt install ./discord_temp.deb
+rm ./discord_temp.deb
